@@ -12,7 +12,6 @@ Requires:	pygtk2.0-libglade
 Requires:	openssh-clients
 Requires:	xorg-x11-server
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 The mille-xterm display manager is the login interface on terminal. It runs on
