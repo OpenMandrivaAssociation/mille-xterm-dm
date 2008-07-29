@@ -1,7 +1,7 @@
 Summary:	Mille-xterm display manager 
 Name:		mille-xterm-dm
 Version:	1.0
-Release:	%mkrel 1
+Release:	%mkrel 3
 License:	GPL
 Group:		System/Servers
 URL:		http://www.revolutionlinux.com/mille-xterm
