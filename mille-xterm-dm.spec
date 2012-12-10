@@ -65,3 +65,37 @@ rm -rf %{buildroot}
 %{_datadir}/ldm/*
 
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0-6mdv2011.0
++ Revision: 620331
+- the mass rebuild of 2010.0 packages
+
+* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 1.0-5mdv2010.0
++ Revision: 439807
+- rebuild
+
+* Tue Feb 10 2009 Ander Conselvan de Oliveira <ander@mandriva.com> 1.0-4mdv2009.1
++ Revision: 339217
+- Do not depend on old xorg-x11-server package. Use x11-server-xorg instead.
+
+* Tue Jul 29 2008 Thierry Vignaud <tv@mandriva.org> 1.0-3mdv2009.0
++ Revision: 252452
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 1.0-1mdv2008.1
++ Revision: 136579
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Thu Feb 08 2007 Oden Eriksson <oeriksson@mandriva.com> 1.0-1mdv2007.0
++ Revision: 117774
+- Import mille-xterm-dm
+
+* Fri Sep 29 2006 Oden Eriksson <oeriksson@mandriva.com> 1.0-1mdk
+- initial Mandriva package (mille-xterm import)
+
