@@ -1,13 +1,13 @@
 Summary:	Mille-xterm display manager 
 Name:		mille-xterm-dm
 Version:	1.0
-Release:	%mkrel 6
+Release:	7
 License:	GPL
 Group:		System/Servers
 URL:		http://www.revolutionlinux.com/mille-xterm
 Source0:	%{name}-%{version}.tar.bz2
 Requires:	python >= 2.4
-Requires:	python-gnome
+Requires:	gnome-python
 Requires:	pygtk2.0-libglade
 Requires:	openssh-clients
 Requires:	x11-server-xorg
