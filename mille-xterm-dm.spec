@@ -4,7 +4,7 @@ Version:	1.0
 Release:	7
 License:	GPL
 Group:		System/Servers
-URL:		http://www.revolutionlinux.com/mille-xterm
+URL:		https://www.revolutionlinux.com/mille-xterm
 Source0:	%{name}-%{version}.tar.bz2
 Requires:	python >= 2.4
 Requires:	gnome-python
